@@ -39,6 +39,7 @@
   <div class="row">
     <div class="col-sm-4">
         <h3 id="Research">The Research</h3>
+          <!---used bootstrap card component below-->
           <div class="card" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">User Survey</h5>
@@ -61,23 +62,63 @@
             </div>
           </div>
       </div>
-    </div>
-    <div class="col-sm-4">
-      <h3 id="Problem">The Problem</h3>
-      <p>Caregivers for people with Alzheimer’s or dementia feel isolated and overwhelmed by the needs of their loved ones. They don’t know when or how to access resources for support. They need help understanding and navigating their options. Having help would give them peace of mind, relieve some of their stress, and improve the quality of care they can provide.</p>
-    </div>
-    <div class="col-sm-4">
-      <h3 id="Iterations">The Iterations</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
+      <div class="col-sm-4">
+        <h3 id="Problem">The Problem</h3>
+        <p class="jumbotron text-center">Caregivers for people with Alzheimer’s or dementia feel isolated and overwhelmed by the needs of their loved ones. They don’t know when or how to access resources for support. They need help understanding and navigating their options. Having help would give them peace of mind, relieve some of their stress, and improve the quality of care they can provide.</p>
+      </div>
+      <div class="col-sm-4">
+        <h3 id="Iterations">The Iterations</h3>
+        <!---used bootstrap collapse component below-->        
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Lo-Fidelity Wireframe
+                </button>
+              </h2>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <img src="images/Lo-Fi Home.png" class="img-fluid"></img>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Lo-Fidelity Mobile Wireframe
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                <img src="images/Mobile Home Wireframe.png" class="img-fluid"></img>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Hi-Fidelity Mobile Prototype
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                <img src="images/Mobile Home.png" class="img-fluid"></img>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
   </div>
 </div>
-
+<br><br>
 <div class="container">
   <h3 id="Solution">The Solution</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
   <img class="img-fluid" src="images/Home.png"></img>
 </div>
 
